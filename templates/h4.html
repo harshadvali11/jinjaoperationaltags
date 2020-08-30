@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is h4.html</h1>
+    <h1>This Demonstration of if by jinja</h1>
+<!--
+    {% if a > b %}
+        <h1>inside if condtion</h1>
+        <h1>{{a}}</h1>
+    {% endif %}
+-->
+<!--
+{% if a > b %}
+    <h1>inside if block </h1>
+    {{a}}
+{% else %}
+    <h1>inside else block </h1>
+    {{b}}
+{% endif %}
+-->
+
+{% if a > b %}
+    <h1>a is greater value</h1>
+{% elif b > a %}
+    <h1>b is greater value</h1>
+{% else %}
+    <h1>values are same </h1>
+{% endif %}
+
+
+
+
+</body>
+</html>
